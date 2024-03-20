@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+body{
+    background: #0F0F0F;
+}
+.container{
+    padding: 10px;
+    width: 25%;
+    display: block;
+    margin: 5% auto;
+}
+
+.detail{
+    background-color: white;
+    color: black;
+    padding: 10px 10px 1px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style-type: none;
+    box-shadow: 2px 2px 10px slateblue;
+    margin-top: 20px;
+    max-height: 150px;
+    transition: max-height 400ms ease-out;
+}
+
+summary{
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    list-style: "▶️";
+}
+p{
+    background-color: #000000c5;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.detail[open] summary{
+    list-style: "🔽";
+}
